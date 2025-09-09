@@ -1,0 +1,48 @@
+nav {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#img-container {
+    background-color: blue;
+    width: 100%;
+}
+
+#img-container img {
+    width: 100%;
+    height: 240px;
+}
+
+section {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    height: 140px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section div {
+    height: 80px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#company-section {
+    border: 2px solid red;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 4px;
+}
+footer p {
+    text-align: center;
+}
